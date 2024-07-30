@@ -1,0 +1,7 @@
+database
+ws url
+how to run
+room.html 12
+
+daphne -b 0.0.0.0 web_socket.asgi:appplication
+daphne -b 0.0.0.0 -p 8001 web_socket.asgi:appplication
